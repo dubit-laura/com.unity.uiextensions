@@ -1934,7 +1934,7 @@ namespace UnityEditor.UI
 			for (int i = 0; i < 3; i++)
 			{
 				var button = AddButtonAsChild(go).GetComponent<Button>();
-				button.gameObject.AddComponent<Segment>();
+				button.gameObject.AddComponent<UnityEngine.UI.Extensions.Segment>();
 				button.name = "Segment " + (i + 1);
 
 				var colors = button.colors;

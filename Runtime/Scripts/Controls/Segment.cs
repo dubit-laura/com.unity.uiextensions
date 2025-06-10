@@ -128,7 +128,7 @@ namespace UnityEngine.UI.Extensions
                 {
                     if (segmentedControl.selectedSegment)
                     {
-                        var segment = segmentedControl.selectedSegment.GetComponent<Segment>();
+                        var segment = segmentedControl.selectedSegment.GetComponent<UnityEngine.UI.Extensions.Segment>();
                         segmentedControl.selectedSegment = null;
                         if (segment)
                         {
